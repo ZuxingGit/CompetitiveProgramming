@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build and Run Current C++ File",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Current C++ File",
+            "type": "shell",
+            "command": "${fileDirname}/${fileBasenameNoExtension}",
+            "dependsOn": ["Build and Run Current C++ File"],
+            "problemMatcher": []
+        }
+    ]
+}
