@@ -2,6 +2,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Mastermind",
+            "request": "launch",
+            "mainClass": "practice.Mastermind.Mastermind",
+            "projectName": "CompetitiveProgramming_1b0b962b"
+        },
+        {
+            "type": "java",
+            "name": "HelloAdelaide",
+            "request": "launch",
+            "mainClass": "HelloAdelaide",
+            "projectName": "CompetitiveProgramming_1b0b962b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Project",
+            "request": "launch",
+            "mainClass": "${file}",
+            "projectName": "CompetitiveProgramming_1b0b962b"
+        },
+        {
             "name": "Debug Current C++ File",
             "type": "cppdbg",
             "request": "launch",
