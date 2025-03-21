@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PowerfulLiterature",
+            "request": "launch",
+            "mainClass": "PowerfulLiterature",
+            "projectName": "CompetitiveProgramming_1b0b962b"
+        },
+        {
+            "type": "java",
+            "name": "TowerofTablets",
+            "request": "launch",
+            "mainClass": "TowerofTablets",
+            "projectName": "CompetitiveProgramming_1b0b962b"
+        },
+        {
+            "type": "java",
             "name": "Mastermind",
             "request": "launch",
             "mainClass": "practice.Mastermind.Mastermind",
