@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TeamGCD",
+            "request": "launch",
+            "mainClass": "practice.TeamGCD.TeamGCD",
+            "projectName": "CompetitiveProgramming_1b0b962b"
+        },
+        {
+            "type": "java",
             "name": "PowerfulLiterature",
             "request": "launch",
             "mainClass": "PowerfulLiterature",
