@@ -21,6 +21,8 @@ public class Fastest {
         }
 
         System.out.println(getMin(runTimes));
+
+        scanner.close();
     }
 
     // Get the min from the array
