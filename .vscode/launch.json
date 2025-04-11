@@ -3,6 +3,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ForthFastest",
+            "request": "launch",
+            "mainClass": "practice.AlgorithmPerformanceII.ForthFastest",
+            "projectName": "CompetitiveProgramming_1b0b962b"
+        },
+        {
+            "type": "java",
+            "name": "FouthFatest",
+            "request": "launch",
+            "mainClass": "practice.AlgorithmPerformanceII.FouthFatest",
+            "projectName": "CompetitiveProgramming_1b0b962b"
+        },
+        {
+            "type": "java",
+            "name": "Fastest",
+            "request": "launch",
+            "mainClass": "practice.AlgorithmPerformance1.Fastest",
+            "projectName": "CompetitiveProgramming_1b0b962b"
+        },
+        {
+            "type": "java",
+            "name": "DoubleCheck",
+            "request": "launch",
+            "mainClass": "practice.SPAR.DoubleCheck.DoubleCheck",
+            "projectName": "CompetitiveProgramming_1b0b962b"
+        },
+        {
+            "type": "java",
+            "name": "MusicalMending",
+            "request": "launch",
+            "mainClass": "practice.SPAR.MusicalMending.MusicalMending",
+            "projectName": "CompetitiveProgramming_1b0b962b"
+        },
+        {
+            "type": "java",
             "name": "TeamGCD",
             "request": "launch",
             "mainClass": "practice.TeamGCD.TeamGCD",
